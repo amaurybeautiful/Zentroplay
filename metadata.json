@@ -1,0 +1,5 @@
+{
+  "name": "Zentroplay IPTV Service",
+  "description": "A landing page for Zentroplay, an IPTV service, showcasing pricing plans, a referral program, and a contact form, fully recreated in React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
