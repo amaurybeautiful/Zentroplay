@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
   return (
     <footer className="border-t border-gray-800/50 py-8">
       <div className="container mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-        <div className="flex items-center gap-2">
-            <ZentroplayLogo />
-            <span className="font-bold text-xl text-gray-400">ZENTROPLAY</span>
+        <div className="flex items-center gap-3">
+            <ZentroplayLogo className="w-8 h-8" />
+            <span className="font-bold text-2xl text-gray-400">ZENTROPLAY</span>
         </div>
         <p className="text-gray-500 text-sm text-center sm:text-right">
           © 2025 Zentroplay. Todos os direitos reservados.

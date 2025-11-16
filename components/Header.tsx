@@ -13,9 +13,9 @@ const Header: React.FC = () => {
   return (
     <header className="py-4">
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#" className="flex items-center gap-2">
-          <ZentroplayLogo />
-          <span className="font-bold text-xl">ZENTROPLAY</span>
+        <a href="#" className="flex items-center gap-3">
+          <ZentroplayLogo className="w-10 h-10" />
+          <span className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF]">ZENTROPLAY</span>
         </a>
         
         <nav className="hidden md:flex items-center gap-8">

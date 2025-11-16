@@ -1,15 +1,12 @@
-
 import React from 'react';
 
+// Replaced the previous SVG with the user-provided image, embedded as a Base64 URI.
 export const ZentroplayLogo: React.FC<{ className?: string }> = ({ className }) => (
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-    <path d="M19.1413 22.8631L26.5146 16L19.1413 9.13687L16.9691 11.3091L21.0829 15.4229H5.48535V16.5771H21.0829L16.9691 20.6909L19.1413 22.8631Z" fill="url(#paint0_linear_14_47)"></path>
-    <path d="M12.8587 9.13687L5.48535 16L12.8587 22.8631L15.0309 20.6909L10.9171 16.5771H26.5146V15.4229H10.9171L15.0309 11.3091L12.8587 9.13687Z" fill="url(#paint1_linear_14_47)"></path>
-    <defs>
-      <linearGradient id="paint0_linear_14_47" x1="5.48535" y1="16" x2="26.5146" y2="16" gradientUnits="userSpaceOnUse"><stop stopColor="#3D8BFF"></stop><stop offset="1" stopColor="#AB23FF"></stop></linearGradient>
-      <linearGradient id="paint1_linear_14_47" x1="26.5146" y1="16" x2="5.48535" y2="16" gradientUnits="userSpaceOnUse"><stop stopColor="#3D8BFF"></stop><stop offset="1" stopColor="#AB23FF"></stop></linearGradient>
-    </defs>
-  </svg>
+  <img 
+    src="data:image/png;base64,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" 
+    alt="Zentroplay Logo" 
+    className={className} 
+  />
 );
 
 export const PlayIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -54,4 +51,9 @@ export const PresentIcon: React.FC<{ className?: string }> = ({ className }) => 
 
 export const MailIcon: React.FC<{ className?: string }> = ({ className }) => (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+);
+
+// FIX: Add missing ChevronDownIcon component.
+export const ChevronDownIcon: React.FC<{ className?: string }> = ({ className }) => (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
 );
