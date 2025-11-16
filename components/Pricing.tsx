@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CheckIcon, DollarIcon, LightbulbIcon } from './Icons';
 
@@ -90,7 +89,7 @@ const PricingCard: React.FC<{ plan: PricingPlan }> = ({ plan }) => {
       )}
       
       <div className="flex-grow">
-          <a href="#" className="w-full block text-center bg-[linear-gradient(90deg,#3d8bff,#ab23ff)] text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity">
+          <a href="#contato" className="w-full block text-center bg-[linear-gradient(90deg,#3d8bff,#ab23ff)] text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity">
             Assinar Agora
           </a>
       </div>
