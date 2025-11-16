@@ -33,9 +33,10 @@ const Contact: React.FC = () => {
         if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
             newErrors.email = "Por favor, insira um email válido.";
         }
-        // Brazilian phone number regex: (XX) 9XXXX-XXXX or (XX) XXXX-XXXX
-        if (!/^\(\d{2}\)\s\d{4,5}-\d{4}$/.test(formData.phone)) {
-            newErrors.phone = "Formato inválido. Use (XX) XXXXX-XXXX.";
+        
+        const phoneDigits = formData.phone.replace(/\D/g, '');
+        if (phoneDigits.length < 10 || phoneDigits.length > 11) {
+            newErrors.phone = "Número inválido. O número deve ter 10 ou 11 dígitos, incluindo o DDD.";
         }
         return newErrors;
     };
