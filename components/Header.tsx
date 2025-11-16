@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ZentroplayLogo } from './Icons';
 
@@ -13,9 +12,8 @@ const Header: React.FC = () => {
   return (
     <header className="py-4">
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#" className="flex items-center gap-2">
-          <ZentroplayLogo />
-          <span className="font-bold text-xl">ZENTROPLAY</span>
+        <a href="#" className="flex items-center">
+          <ZentroplayLogo className="h-8 w-auto" />
         </a>
         
         <nav className="hidden md:flex items-center gap-8">
