@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
          preview: {
-        allowedHosts: ['site-zentro.dxq9e0.easypanel.host'],
+        allowedHosts: ['zentroplay.net'],
         host: true,
         port: 3000,
       },
