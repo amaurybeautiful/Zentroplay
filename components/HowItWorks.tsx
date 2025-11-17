@@ -59,7 +59,7 @@ const HowItWorks: React.FC = () => {
             Comece a ganhar <span className="text-blue-400 font-bold">dinheiro extra</span> hoje mesmo! Entre em contato e descubra como participar do nosso programa de indicação.
           </p>
           <div className="mt-8">
-            <a href="#indicacao" className="inline-flex items-center gap-2 bg-[linear-gradient(90deg,#3d8bff,#ab23ff)] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="#contato" className="inline-flex items-center gap-2 bg-[linear-gradient(90deg,#3d8bff,#ab23ff)] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               <PresentIcon className="w-5 h-5" /> Quero Indicar e Ganhar
             </a>
           </div>
