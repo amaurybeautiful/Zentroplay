@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <span className="font-bold text-2xl text-gray-400">ZENTROPLAY</span>
         </div>
         <p className="text-gray-500 text-sm text-center sm:text-right">
-          © 2025 Zentroplay. Todos os direitos reservados.
+          © 2026 Zentroplay. Todos os direitos reservados.
         </p>
       </div>
     </footer>
