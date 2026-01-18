@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
       },
         preview: {
         allowedHosts: [
-          'site-zentro.dxq9e0.easypanel.host',
+          'zentroplay-sitezentro.ukwobe.easypanel.host',
           'www.zentroplay.net',
           'zentroplay.net'
         ],
