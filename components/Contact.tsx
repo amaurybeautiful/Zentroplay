@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
         setErrors({});
 
         try {
-            const response = await fetch("https://n8n.manager.zentroplay.net/webhook/recebimentoviasite", {
+            const response = await fetch("https://n8n.gereciador.zentroplay.net/webhook/9f010597-c43b-40f0-84a4-9c3460bc5bcc", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
