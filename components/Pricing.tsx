@@ -16,7 +16,7 @@ const plans: PricingPlan[] = [
   {
     title: 'Mensal',
     screens: '1 Tela',
-    price: 35,
+    price: 30,
     period: 'mês',
     features: ['Qualidade HD/Full HD/Ultra HD', 'Suporte 24/7', 'Sem contrato'],
   },
@@ -31,7 +31,7 @@ const plans: PricingPlan[] = [
   {
     title: 'Semestral',
     screens: '1 Tela',
-    price: 175,
+    price: 150,
     period: '6 meses',
     features: ['Qualidade HD/Full HD/Ultra HD', 'Suporte 24/7', 'Sem contrato'],
     isSavings: true,
